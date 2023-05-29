@@ -1,0 +1,145 @@
+.main-bac{
+    background-color: rgb(53, 50, 50);
+}
+
+ul {
+    list-style-type: none;
+
+    padding: 0;
+    /* background-color:; */
+}
+.navbar {
+    height: 70px;
+    width: 100%;
+   background-color: rgb(53, 50, 50) ;
+   /* margin-bottom: ; */
+    /* color:rgb(250, 249, 249); */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    color: white;
+}
+
+.sq{
+    background-color:rgb(74, 71, 71);
+    width: 70px;
+    height: 70px;
+}
+
+.dad-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    
+
+
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    height:560px ;
+    width: 560px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding:2
+    /* margin: ; */
+}
+
+
+.column:nth-of-type(odd) .sq:nth-of-type(even){
+    background-color:rgb(200, 200, 211);
+
+}
+
+.column:nth-of-type(even) .sq:nth-of-type(odd){
+    background-color: rgb(200, 200, 211);
+
+}
+
+img{
+    width: 100%;
+
+}
+
+
+.dad-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.profile{
+    /* border: 1px solid black; */
+    display: grid;
+    height: 80px;
+    width: 560px;
+}
+
+.name{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.profile-image{
+    border-radius: 10px;
+  }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(53, 50, 50);
+    color: white;
+
+}
+
+.naming{
+    display: flex;
+    text-align: right;
+}
+
+.profile-name{
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 15px;
+    width:80px;
+    display: flex;
+    color: white;
+
+
+   
+}
+.rating1{
+    color: white;
+    margin: 0 10px 0 20px;
+}
+
+.rating2{
+    color: white;
+    margin: 0 10px 0 10px;
+}
+.flag{
+    margin: 0;
+}
+.profile-section{
+    display: flex;
+    height: 15px;
+    width: 600px;
+
+    
+}
+
+.timer{
+    height: 10px;
+    width: 10px;
+}
